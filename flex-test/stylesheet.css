@@ -1,0 +1,29 @@
+.parent {
+    background-color: #1c1405;
+    display: flex;
+    justify-content: center;
+    /*flex-direction: column;*/
+    flex-flow: row wrap;
+}
+.child {
+    width: 300px;
+    height: 400px;
+    flex: 1;
+    flex-basis: 40%;
+    margin: 5%;
+}
+.child:nth-child(1){
+    background-color: #e28e56;
+}
+.child:nth-child(2){
+    background-color: #239c4c;
+}
+.child:nth-child(3){
+    background-color: #5670e2;
+}
+.child:nth-child(4){
+    background-color: #ca56e2;
+}
+.child:nth-child(5){
+    background-color: #e2c756;
+}
